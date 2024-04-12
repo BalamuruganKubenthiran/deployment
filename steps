@@ -1,0 +1,8 @@
+launch two servers
+connect with mobaxterm
+download first server inside jenkins, docker, ansible, git
+download second server inside docker 
+configure ansible in both the servers
+open jenkins hoemepage
+in manage jenkins ---> build maven, download plugin name is publish over ssh, system inside publish over ssh
+in configure give git and maven and give the all commands
