@@ -1,0 +1,9 @@
+---
+- name: playbook
+  hosts: demo
+  user: ansible
+  become: yes
+  connection: ssh
+  tasks:
+    - name: docker install
+      shell: docker run -it -d --name webapp -p 8070:8080 balamurugankk/fifth:latest

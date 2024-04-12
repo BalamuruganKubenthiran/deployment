@@ -1,0 +1,5 @@
+cd /home/ansible
+docker build -t devops .
+docker tag devops balamurugankk/webapp
+docker push  balamurugankk/webapp
+docker rmi balamurugankk/webapp
